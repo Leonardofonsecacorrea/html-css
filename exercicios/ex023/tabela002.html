@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -29,6 +30,12 @@
         thead, tfoot {
             background-color: #383838;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
         }
 
         tbody > tr:nth-child(2n) {
@@ -63,24 +70,82 @@
         <tbody>
             <tr>
                 <td>São Paulo</td>
-                <td class="num">45 919 049</td>
+                <td class="num">45.919.049</td>
             </tr>
             <tr>
                 <td>Minas Gerais</td>
-                <td class="num">21 168 791</td>
+                <td class="num">21.168.791</td>
             </tr>
             <tr>
                 <td>Rio de Janeiro</td>
-                <td class="num">17 264 943</td>
+                <td class="num">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.873.064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.433.957</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9.557.071</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9.132.078</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8.602.865</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7.164.788</td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
                 <th scope="row">Total de Habitantes</th>
-                <td class="num">84 352 783</td>
+                <td class="num">156.493.845</td>
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, assumenda? Adipisci, possimus veritatis officiis illum incidunt quas neque blanditiis doloremque hic excepturi voluptatem tenetur ad? Dolorem eius consequuntur rem ut!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio magni dolorum perferendis aperiam impedit sequi accusantium ducimus nostrum vitae libero velit, at ipsam vero. Aliquam inventore iusto aut harum perferendis!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quos et eum, harum velit omnis aspernatur qui eligendi atque aut obcaecati saepe commodi molestiae explicabo placeat, aliquam, dolore natus enim!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, cum magnam, dolore, distinctio consequatur magni quam qui recusandae vel aliquam voluptatem saepe totam aspernatur assumenda reprehenderit neque beatae. Maxime, officiis?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, assumenda? Adipisci, possimus veritatis officiis illum incidunt quas neque blanditiis doloremque hic excepturi voluptatem tenetur ad? Dolorem eius consequuntur rem ut!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio magni dolorum perferendis aperiam impedit sequi accusantium ducimus nostrum vitae libero velit, at ipsam vero. Aliquam inventore iusto aut harum perferendis!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quos et eum, harum velit omnis aspernatur qui eligendi atque aut obcaecati saepe commodi molestiae explicabo placeat, aliquam, dolore natus enim!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, cum magnam, dolore, distinctio consequatur magni quam qui recusandae vel aliquam voluptatem saepe totam aspernatur assumenda reprehenderit neque beatae. Maxime, officiis?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, assumenda? Adipisci, possimus veritatis officiis illum incidunt quas neque blanditiis doloremque hic excepturi voluptatem tenetur ad? Dolorem eius consequuntur rem ut!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio magni dolorum perferendis aperiam impedit sequi accusantium ducimus nostrum vitae libero velit, at ipsam vero. Aliquam inventore iusto aut harum perferendis!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quos et eum, harum velit omnis aspernatur qui eligendi atque aut obcaecati saepe commodi molestiae explicabo placeat, aliquam, dolore natus enim!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, cum magnam, dolore, distinctio consequatur magni quam qui recusandae vel aliquam voluptatem saepe totam aspernatur assumenda reprehenderit neque beatae. Maxime, officiis?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, assumenda? Adipisci, possimus veritatis officiis illum incidunt quas neque blanditiis doloremque hic excepturi voluptatem tenetur ad? Dolorem eius consequuntur rem ut!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio magni dolorum perferendis aperiam impedit sequi accusantium ducimus nostrum vitae libero velit, at ipsam vero. Aliquam inventore iusto aut harum perferendis!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quos et eum, harum velit omnis aspernatur qui eligendi atque aut obcaecati saepe commodi molestiae explicabo placeat, aliquam, dolore natus enim!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, cum magnam, dolore, distinctio consequatur magni quam qui recusandae vel aliquam voluptatem saepe totam aspernatur assumenda reprehenderit neque beatae. Maxime, officiis?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, assumenda? Adipisci, possimus veritatis officiis illum incidunt quas neque blanditiis doloremque hic excepturi voluptatem tenetur ad? Dolorem eius consequuntur rem ut!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio magni dolorum perferendis aperiam impedit sequi accusantium ducimus nostrum vitae libero velit, at ipsam vero. Aliquam inventore iusto aut harum perferendis!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quos et eum, harum velit omnis aspernatur qui eligendi atque aut obcaecati saepe commodi molestiae explicabo placeat, aliquam, dolore natus enim!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, cum magnam, dolore, distinctio consequatur magni quam qui recusandae vel aliquam voluptatem saepe totam aspernatur assumenda reprehenderit neque beatae. Maxime, officiis?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, assumenda? Adipisci, possimus veritatis officiis illum incidunt quas neque blanditiis doloremque hic excepturi voluptatem tenetur ad? Dolorem eius consequuntur rem ut!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio magni dolorum perferendis aperiam impedit sequi accusantium ducimus nostrum vitae libero velit, at ipsam vero. Aliquam inventore iusto aut harum perferendis!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quos et eum, harum velit omnis aspernatur qui eligendi atque aut obcaecati saepe commodi molestiae explicabo placeat, aliquam, dolore natus enim!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, cum magnam, dolore, distinctio consequatur magni quam qui recusandae vel aliquam voluptatem saepe totam aspernatur assumenda reprehenderit neque beatae. Maxime, officiis?
+    </p>
     
 </body>
 </html>
